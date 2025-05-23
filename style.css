@@ -1,0 +1,95 @@
+/* General styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #232f3e;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #febd69; /* Amazon's signature color */
+}
+
+.cart {
+  font-size: 18px;
+}
+
+/* Product section */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.product-image {
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-details h2 {
+  margin-top: 0;
+  color: #007185;
+}
+
+.price {
+  font-size: 24px;
+  color: #b12704;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+/* Inputs and buttons */
+input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #ffa41c;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff8f00;
+}
+
+/* Footer */
+footer {
+  background-color: #232f3e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

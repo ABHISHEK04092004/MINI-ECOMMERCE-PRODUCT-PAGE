@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QUICKCART | Product Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>QUICKCART</h1>
+    <div class="cart">
+      🛒 Cart: <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <main class="product-container">
+    <img src="Headphone.jpg" alt="Product Image" class="product-image" height="500px" width="100px">
+
+    <div class="product-details">
+      <h2>Wireless Bluetooth Headphones</h2>
+      <p class="price">₹1,999 <span class="original-price">₹2,999</span></p>
+      <p>Experience premium sound quality with deep bass and long battery life. Comfortable over-ear design, ideal for music, calls, and gaming.</p>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" min="1" value="1">
+
+      <button id="add-to-cart">Add to Cart</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 QUICKCART. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
